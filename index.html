@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>We are the Champions</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class = "container">
+            <img alt = "singer posing with microphone" src = "assets/freddie.png">
+            <h1>We are the Champions</h1>
+            <textarea rows = "5" cols = "1" placeholder = "Write your endorsement here" id = "endorsement-input-box"></textarea>
+            <div id = "person-container">
+                <input type = "text" placeholder = "From" class = "person-input" id = "input-from">
+                <input type = "text" placeholder = "To" class = "person-input" id = "input-to">
+            </div>
+            <button id = "publish-btn">Publish</button>
+            <h2>- Endorsements -</h2>
+            <div id = "endorsements-list">
+            </div>
+        </div>
+
+        <script src="index.js" type = "module"></script>
+    </body>
+</html>

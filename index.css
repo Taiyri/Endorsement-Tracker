@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700px;
+    color: #1b1924;
+}
+
+img {
+    width: 90px;
+    margin-top: 51px;
+}
+
+textarea {
+    background-color: #444059;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+    color: #ffffff;
+    width: 282px;
+    padding: 12px 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+.endorsement-card {
+    width: 320px;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #1b1924;
+    padding: 1px 14px;
+    margin-bottom: 13px;
+}
+
+.person-input {
+    background-color: #444059;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    height: 40px;
+    width: 152px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container {
+    background-color: #1b1924;
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#person-container {
+    display: flex;
+    margin: 9px 0px;
+    width: 320px;
+    column-gap: 9px;
+    justify-content: center;
+}
+
+#publish-btn {
+    border: none;
+    border-radius: 8px;
+    flex-grow: 1;
+    background-color: #28A9F1;
+    color: #04131C;
+    height: 50px;
+    line-height: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    width: 320px;
+}
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Josefin Sans', sans-serif; */
